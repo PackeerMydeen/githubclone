@@ -1,0 +1,25 @@
+.lists-wrapper {
+    padding-top: 3rem;
+
+    .cards {
+        margin-top: 2rem;
+    }
+
+    .filters {
+        display: flex;
+    }
+
+    .noDataFound {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+}

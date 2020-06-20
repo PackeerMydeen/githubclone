@@ -1,0 +1,28 @@
+.main-wrapper {
+    height: 100vh;
+
+
+    .main-body {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .right-section {
+            width: 60%;
+        }
+
+        .loading {
+            align-items: center;
+            font-size: 2rem;
+            display: flex;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .right-section {
+        width: 100% !important;
+        padding: 1rem
+    }
+}

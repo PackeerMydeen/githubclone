@@ -1,0 +1,30 @@
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .star-button {
+        width: 7rem;
+    }
+
+    .name {
+        color: #0366d6;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 600;
+
+    }
+
+    .desc {
+        color: #586069 !important;
+        font-size: 1.2rem;
+
+
+    }
+
+    .updated {
+        color: #586069 !important;
+        font-size: 1.4rem;
+        margin-top: 0.5rem
+    }
+}

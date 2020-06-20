@@ -1,0 +1,15 @@
+.button-wrapper {
+    padding: 0.5rem;
+    color: #24292e;
+    background-color: #eff3f6;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(27, 31, 35, .2);
+    border-radius: .25em;
+    font-size: 1.5rem;
+}
+
+.button-wrapper:hover {
+    background-color: #e6ebf1;
+    border-color: rgba(27, 31, 35, .35);
+}
